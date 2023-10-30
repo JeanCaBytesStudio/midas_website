@@ -1,0 +1,96 @@
+.web-page{
+    background-color: #101010;
+    width: Hug (1920px);
+height: Hug (3527.16px);
+gap: 128px;
+
+}
+.badge{
+    background-color:#FDD2541A;
+    ;
+}
+.navbar {
+    background-color: #121212;
+}
+a {
+    color:#FEFDFB;
+    font:Text - lg/Bold;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0.01em;
+text-align: left;
+
+}
+
+.navbar-brand > img {
+    width: 76.32px ;
+    height: 40px;
+    
+}
+.cuerpo{
+    background-color: #101010;
+}
+.container-image {
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+img {
+    margin:auto ;
+
+}
+.division {
+    width: Fixed (1,966px);
+height: Hug (201px);
+left: -50px;
+
+}
+.RESTO{
+    width: Hug (1,920px);
+height: Hug (2,651.16px);
+gap: 56px;
+
+}
+.container {
+    background-color: #101010;
+    width: Fixed (1,600px);
+height: Hug (492.16px);
+gap: 300px;
+
+}
+.col-4{
+   color:#FEFDFB;
+   width: Hug (808px);
+height: Hug (364px);
+gap: 32px;
+
+}
+.mini-title{
+    color:#FCBC00;
+    
+}
+.design {
+    align-content: flex-end;
+}
+.b-products {
+    
+background-color:#121212;
+
+}
+.col {
+    background-color:#101010;
+    display: grid;
+    place-items: center;
+    position: relative;
+
+}
+.colum {
+    width: 492.16px;
+    height: 492.16px;
+    display: grid;
+    place-items:left ;
+    position:fixed;
+}

@@ -1,0 +1,51 @@
+.dark_colors{
+    background-color: #121212;
+}
+.navbar-nav .nav-link{
+    color:#FEFDFB;
+    font:Text - lg/Bold;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0.01em;
+text-align: left;
+
+}
+.webpage {
+    background-color: #101010;
+}
+.align {
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+.web_color{
+        background-color: #101010;
+        width: Hug (1920px);
+    height: Hug (3527.16px);
+    gap: 128px;
+}
+.first_image{
+    width: 492.16px;
+height: 492.16px;
+}
+.font_color{
+    color: #fefefe;;
+}
+.mini_title{
+    color: #FCBC00;
+}
+.fuente{
+    color:#FEFDFB;
+    font:Text - lg/Bold;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0.01em;
+text-align: left;
+}
+.badge {
+    background-color:#FDD2541A;
+}

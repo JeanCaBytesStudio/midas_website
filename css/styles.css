@@ -12,9 +12,6 @@ letter-spacing: 0.01em;
 text-align: left;
 
 }
-.webpage {
-    background-color: #101010;
-}
 .align {
     display: grid;
     place-items: center;

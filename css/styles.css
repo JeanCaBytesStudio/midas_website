@@ -1,6 +1,11 @@
 .dark_colors{
-    background-color: #121212;
+    background: color #121212;
 }
+.first_image {
+    width: 1046px;
+height: 548px;
+}
+
 .navbar-nav .nav-link{
     color:#FEFDFB;
     font:Text - lg/Bold;
@@ -10,7 +15,6 @@ font-weight: 700;
 line-height: 28px;
 letter-spacing: 0.01em;
 text-align: left;
-
 }
 .align {
     display: grid;
@@ -19,30 +23,138 @@ text-align: left;
 }
 .web_color{
         background-color: #101010;
-        width: Hug (1920px);
-    height: Hug (3527.16px);
-    gap: 128px;
 }
-.first_image{
-    width: 492.16px;
-height: 492.16px;
-}
-.font_color{
-    color: #fefefe;;
-}
+
 .mini_title{
-    color: #FCBC00;
+    color: #FCBC00; font-size: 16px; font-family: Poppins; font-style: italic; font-weight: 600; line-height: 24px; letter-spacing: 0.16px; word-wrap: break-word;
 }
-.fuente{
-    color:#FEFDFB;
-    font:Text - lg/Bold;
+.title{
+     gap: 10px; color: #FEFDFB; font-size: 60px; font-family: Poppins; font-weight: 700; line-height: 70px; letter-spacing: 0.60px; word-wrap: break-word; margin-bottom: 10px;
+}
+.general_font{
+    
+    color: var(--text-text-placeholder, #FEFDFB);
 font-family: Poppins;
-font-size: 18px;
-font-weight: 700;
-line-height: 28px;
-letter-spacing: 0.01em;
-text-align: left;
+font-size: 16px;
+font-style: normal;
+line-height: 24px; /* 150% */
+letter-spacing: 0.16px;
 }
+
 .badge {
-    background-color:#FDD2541A;
+    
+    padding: 10px; background: rgba(253, 210, 84, 0.10); border-radius: 4px; overflow: hidden; justify-content: center; align-items: center; gap: 10px; display: flex}
+
+.badge_letter {
+    color: #FEFDFB; font-size: 16px; font-family: Poppins; font-weight: 700; line-height: 24px; letter-spacing: 1.60px; word-wrap: break-word"
 }
+
+.separation {
+    display: flex;
+padding: var(--spacing-spacing-none, 0px);
+justify-content: center;
+align-items: center;
+align-content: center;
+gap: 92px;
+flex: 1 0 0;
+flex-wrap: wrap;
+}
+
+.general_margin {
+    margin-top:120px;
+    margin-bottom: 120px;
+    margin-left: 160px ;
+    border-spacing:lg;
+
+}
+.copyrigth{
+ text-align: center; color: #FEFDFB; font-size: 14px; font-family: Inter; font-weight: 400; word-wrap: break-word
+}
+.footer_letter {
+    color: #FEFDFB; font-size: 18px; font-family: Poppins; font-weight: 700; line-height: 28px; letter-spacing: 0.18px; word-wrap: break-word
+}
+.footer_icons {
+    width: 24px; height: 24px; position: relative
+}
+.image_margin{
+ width: 492px  ;
+ height: 492px;
+}
+
+
+.title {
+        color: var(--text-text-placeholder, #FEFDFB);
+    /* Display - sm/Bold */
+    font-family: Poppins;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px; /* 126.667% */
+    letter-spacing: 0.3px;
+    display: block;
+    }
+
+.top_margin_impacto{
+    margin-top: 120px;
+}
+    .mini_title{
+        color: var(--text-text-primary, #FCBC00);
+/* Text - md/Semibold italic */
+font-family: Poppins;
+font-size: 16px;
+font-style: italic;
+font-weight: 600;
+line-height: 24px; /* 150% */
+letter-spacing: 0.16px;
+    }
+
+    
+
+
+    @media (max-width: 768px) {
+        .title{
+            font-size: 30px
+        }
+        .general_font {
+            font-size: 16px
+             }
+        .general_margin {
+            margin-top: 44px;
+            margin-bottom: 44px;
+            margin-left:  33px;
+        }
+ 
+        .top_margin_impacto {
+            margin-top: 44px;
+        }
+        .first_image {
+            width: 615.6px; height: 323px;
+                    }
+                    
+                    img[alt~="bytes_brand"- alt~="oldengade_brand" - alt~="Kyc_tool_brand" - alt~="notification_hub_brand"] {
+                        width: 156.389px;
+                        height: 71.442px
+                      }
+     
+        }
+
+
+            @media (max-width: 576px) {
+        .image_margin{
+            width: 240px;
+            height: 240px;}
+
+        .general_margin {
+                margin-left: 32px;
+        }
+        .first_image {
+            width: 324px;
+            height: 170px;
+}
+ 
+  img[alt~="bytes_brand"- alt~="goldengade_brand" - alt~="Kyc_tool_brand" - alt~="notification_hub_brand"] {
+    width: 244px;
+    height: 111px;
+  }
+        }
+              

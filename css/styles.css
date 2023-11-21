@@ -100,8 +100,8 @@ align-content: center; gap: 92px; flex: 1 0 0; flex-wrap: wrap;
 
 
 .impacto_image-size{
-    width: 447px;
-    height: 447px;
+    width: auto;
+    height: auto ;
 }
 
 .web_general-padding {
@@ -176,7 +176,7 @@ letter-spacing: 0.16px;
         }
 
 
-    @media (max-width: 1024px) {
+    @media (max-width: 1400px) {
         .text_title{
             font-size: 30px
         }
@@ -236,7 +236,7 @@ letter-spacing: 0.16px;
             margin-left: 32px;
         }
         .innovamos_image-big {
-            width: 324px;
+            width: auto;
             height: 170px;
 }
  
@@ -256,8 +256,20 @@ letter-spacing: 0.16px;
     margin: 0%;
 }
 
+  
+  @media (min-width:1195px) {
+    .web_general-padding  {
+        padding-bottom: 44px;
+        padding-top: 44px;
+        padding-left: 33px;
+        padding-right: 33px;
   }
-       
+    
+  .innovamos_image-big{
+    width: auto;
+  }
+  } 
+  
   @media (min-width:1200px) {
     .gap_section {
         gap: 300px
@@ -268,4 +280,5 @@ letter-spacing: 0.16px;
         padding-left: 33px;
         padding-right: 33px;
     }
-    }
+}
+            }

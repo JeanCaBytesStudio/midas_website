@@ -1,13 +1,10 @@
-.dark_colors{
+.web_color{
+        background-color: #101010;
+}
+
+.web_color-darkness{
 background-color: #121212;
 }
-
-.first_image {
-    width: 1046px;
-height: 548px;
-
-}
-
 .navbar-nav .nav-link{
     color:#FEFDFB;
     font:Text - lg/Bold;
@@ -16,22 +13,31 @@ font-size: 18px;
 font-weight: 700;
 line-height: 28px;
 letter-spacing: 0.01em;
-text-align: left;
+text-align: center;
 }
+
+.innovamos_image-big {
+    width: 1046px;
+height: 548px;
+}
+.innovamos_image-margin{
+   padding-top: 128px; 
+   padding-bottom: 128px;
+
+}
+
 .align {
     display: grid;
     place-items: center;
     position: relative;
 }
-.web_color{
-        background-color: #101010;
-}
 
-.mini_title{
-    color: #FCBC00; font-size: 16px; font-family: Poppins; font-style: italic; font-weight: 600; line-height: 24px; letter-spacing: 0.16px; word-wrap: break-word;
+
+.text_ante-title{
+    color: #FCBC00; font-size: 16px; font-family: Poppins; font-style: italic; font-weight: 600;letter-spacing: 0.16px; word-wrap: break-word;
 }
-.title{
-     gap: 10px; color: #FEFDFB; font-size: 60px; font-family: Poppins; font-weight: 700; line-height: 70px; letter-spacing: 0.60px; word-wrap: break-word; margin-bottom: 10px;
+.text_title{
+     color: #FEFDFB; font-size: 60px; font-family: Poppins; font-weight: 700; letter-spacing: 0.60px; word-wrap: break-word; margin-bottom: 10px;
 }
 .general_font{
     
@@ -43,17 +49,6 @@ line-height: 24px; /* 150% */
 letter-spacing: 0.16px;
 }
 
-.badge {
-
-    display: flex;
-
-justify-content: center;
-align-items: center;
-border-radius: 4px;
-background: rgba(253, 210, 84, 0.10);
-    
-    /*padding: 10px; background: rgba(253, 210, 84, 0.10); border-radius: 4px; overflow: hidden; justify-content: center; align-items: center; gap: 10px; display: flex*/ 
-}
 
 .badge_letter {
     color: var(--text-text-placeholder, #FEFDFB);
@@ -61,7 +56,15 @@ font-family: Poppins;
 font-size: 16px;
 font-style: normal;
 font-weight: 700;
+padding: 10px;
 letter-spacing: 1.6px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 4px;
+background: rgba(253, 210, 84, 0.10);
     /*color: #FEFDFB; font-size: 16px; font-family: Poppins; font-weight: 700; line-height: 24px; letter-spacing: 1.60px; word-wrap: break-word"*/
 }
 
@@ -89,36 +92,25 @@ align-content: center; gap: 92px; flex: 1 0 0; flex-wrap: wrap;
 .footer_icons {
     width: 24px; height: 24px; position: relative
 }
-.image_margin{
+.impacto_image-siz{
  width: 492px  ;
  height: 492px;
 
 }
 
 
-.image_contacto{
+.impacto_image-size{
     width: 447px;
     height: 447px;
 }
-.title {
-        color: var(--text-text-placeholder, #FEFDFB);
-    /* Display - sm/Bold */
-    font-family: Poppins;
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 38px; /* 126.667% */
-    letter-spacing: 0.3px;
-    display: block;
-    }
 
-.top_margin_impacto{
+.web_general-padding {
     padding-top: 120px;
     padding-bottom: 120px;
     padding-left: 160px;
     padding-right: 160px;
 }
-    .mini_title{
+    .text_ante-title{
         color: var(--text-text-primary, #FCBC00);
 /* Text - md/Semibold italic */
 font-family: Poppins;
@@ -139,7 +131,6 @@ letter-spacing: 0.16px;
     gap:0 px;
 }
     footer {
-        background-color: #121212;
         color: white;
         padding: 20px;
         text-align: center;
@@ -162,6 +153,13 @@ letter-spacing: 0.16px;
     
         }
     
+        .hr_decoration-footer{
+               width: 98% ;
+
+                height: 1px;
+                background-color:#DFDFDF;
+            
+        }
         .icon-row a {
           margin: 28px ; /* Espacio entre los iconos, ajusta según sea necesario */
          list-style: none;
@@ -179,7 +177,7 @@ letter-spacing: 0.16px;
 
 
     @media (max-width: 1024px) {
-        .title{
+        .text_title{
             font-size: 30px
         }
         .general_font {
@@ -194,14 +192,14 @@ letter-spacing: 0.16px;
             margin-left:  33px;
         }
  
-        .top_margin_impacto {
+        .web_general-padding {
             padding-bottom: 44px;
         padding-top: 44px;
         padding-left: 32px;
         padding-right: 32px;
 
         }
-        .first_image {
+        .innovamos_image-big {
             width: 615.6px; height: 323px;
                     }
           .img_size{
@@ -213,6 +211,12 @@ letter-spacing: 0.16px;
          }
          .icon-row a {
             margin: 44px;
+        }
+        .innovamos_image-margin{
+            padding-bottom: 44px;
+            padding-top: 44px;
+            padding-left: 33px;
+            padding-right: 33px;
         }
     }
 
@@ -231,7 +235,7 @@ letter-spacing: 0.16px;
         .general_slide_margin{
             margin-left: 32px;
         }
-        .first_image {
+        .innovamos_image-big {
             width: 324px;
             height: 170px;
 }
@@ -240,7 +244,7 @@ letter-spacing: 0.16px;
     width: 244px;
     height: 111px;
   }
-    .top_margin_impacto {
+    .web_general-padding  {
         padding-bottom: 44px;
         padding-top: 44px;
         padding-left: 33px;

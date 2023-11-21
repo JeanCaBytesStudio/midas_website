@@ -32,21 +32,21 @@
     <nav class="navbar navbar-expand-lg" style="background-color: #121212">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="./assets/Images/Logo MIDAS FAVICON.svg" alt="MidasBrand" />
+          <img src="./assets/Images/Logo MIDAS FAVICON.svg" alt="MidasBrand" class="ps-3 ps-lg-0" style="height: 30px;"/>
         </a>
         <button
-  class="navbar-toggler"
-  type="button"
-  data-bs-toggle="collapse"
-  data-bs-target="#navbarNav"
-  aria-controls="navbarNav"
-  aria-expanded="false"
-  aria-label="Toggle navigation"
->
-  <span class="align">
-    <img src="./assets/Images/Icon (Stroke).svg" alt="" />
-  </span>
-</button>
+          class="btn d-lg-none d-block"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="justify-content-center">
+            <img src="./assets/Images/Icon (Stroke).svg" alt="" />
+          </span> 
+        </button>
         <div
           class="collapse navbar-collapse justify-content-end"
           id="navbarNav"
@@ -67,16 +67,14 @@
     </nav>
 
     <div class="container-fluid">
-
       <!--Contenido de la pagina-->
 
-     
       <section class="row justify-content-center">
         <div class="col-12 align px-0">
           <img
             src="./assets/Images/background.svg.svg"
             alt="Innovamos"
-            class="first_image img-fluid general_top_margin"
+            class="innovamos_image-big img-fluid innovamos_image-margin"
           />
         </div>
       </section>
@@ -92,35 +90,60 @@
         </div>
       </section>
 
-      <div class=""></div>
-
       <!--Impacto-->
       <section
         id="impacto"
-        class="row d-flex flex-row justify-content-center align-items-center gap_section top_margin_impacto"
+        class="row d-flex flex-row justify-content-center align-items-center gap_section web_general-padding "
       >
         <div class="col-sm-12 col-md-4 col-lg-4 flex-fill align-self-center">
-          <div class="mini_title mb-3">ESTE ES NUESTRO</div>
-          <div class="title mb-4">IMPACTO</div>
+          <div class="text_ante-title">ESTE ES NUESTRO</div>
+          <div class="text_title">IMPACTO</div>
 
           <p class="general_font">
             Nuestra metodología busca un impacto a largo plazo, centrada en la
             innovación y la colaboración entre humanos y tecnología para lograr
             resultados significativos en diversas áreas.
           </p>
-
-          <span class="badge badge_letter "> Impuestos</span>
-          <span class="badge badge_letter "> API</span>
-          <span class="badge badge_letter "> SEO</span>
-          <span class="badge badge_letter "> Legal</span>
-          <span class="badge badge_letter "> Auditorias</span>
-          <span class="badge badge_letter "> Ciberseguridad</span>
-          <span class="badge badge_letter "> Riesgos</span>
-          <span class="badge badge_letter "> Fusiones</span>
-          <span class="badge badge_letter "> Consultoria</span>
-          <span class="badge badge_letter "> Software</span>
+          <div class="container-fluid mx-0 px-0">
+            <div class="badge">
+               <span class="badge_letter"> Impuestos</span>
+            </div>
+            <div class="badge ">
+              <span class="badge_letter">Nube</span>
+           </div>
+           <div class="badge " >
+            <span class="badge_letter"> API</span>
+         </div>
+           <div class="badge " >
+            <span class="badge_letter"> SEO</span>
+         </div>
+         <div class="badge " >
+          <span class="badge_letter"> Legal</span>
+       </div>
+       <div class="badge ">
+        <span class="badge_letter"> Bancario</span>
+     </div>
+       <div class="badge ">
+        <span class="badge_letter"> Auditorias</span>
+     </div>
+     <div class="badge ">
+      <span class="badge_letter">  Ciberseguridad</span>
         </div>
-
+        <div class="badge">
+          <span class="badge_letter"> Riesgos</span>
+      </div>
+      <div class="badge">
+        <span class="badge_letter"> Fusiones</span>
+      </div>
+      <div class="badge">
+        <span class="badge_letter"> Consultoria</span>
+      </div>
+      <div class="badge">
+        <span class="badge_letter"> Software</span>
+      </div>
+  
+        </div>
+        </div>
         <div
           class="col-lg-4 col-md-4 col-sm-12 d-flex flex-fill justify-content-center"
         >
@@ -135,25 +158,23 @@
       <!--Seccion de Productos-->
       <section
         id="productos"
-        class="top_margin_impacto row d-flex flex-row row-12 justify-content-center align-items-center flex-fill dark_colors"
-        
+        class="web_general-padding  row d-flex flex-row row-12 justify-content-center align-items-center flex-fill web_color-darkness"
       >
         <div
-          class="col-md-12 flex-fill justify-content-center align-items-center  mb-sm-3"
+          class="col-md-12 flex-fill justify-content-center align-items-center mb-sm-3"
         >
-          <h6 class="mini_title">ENCUENTRA NUESTROS</h6>
-          <h1 class="title">PRUDUCTOS</h1>
+          <h6 class="text_ante-title">ENCUENTRA NUESTROS</h6>
+          <h1 class="text_title">PRUDUCTOS</h1>
         </div>
 
         <div
-          class="container text-center general_slide_margin top_margin_impacto"
-
+          class="container text-center general_slide_margin web_general-padding "
         >
           <div
             class="row ms-lg-5 align-items-center separation d-flex flex-column flex-md-row flex-fill"
           >
             <div
-              class="col align dark-colors object-fit-sm-contain rounded justify-content-center ms-0 ms-sm-3"
+              class="col align object-fit-sm-contain rounded justify-content-center ms-0 ms-sm-3"
             >
               <img
                 src="./assets/Images/goldenGate pr.svg"
@@ -194,18 +215,20 @@
 
       <section
         id="contacto"
-        class="row d-flex flex-row justify-content-center align-items-center gap_section top_margin_impacto"
+        class="row d-flex flex-row justify-content-center align-items-center gap_section web_general-padding "
       >
         <div class="col col-md-4 col-lg-4 flex-fill align-self-center px-0">
-          <div class="mini_title mb-3">NUESTRO</div>
-          <div class="title mb-5">CONTACTO</div>
+          <div class="text_ante-title mb-0 mb-lg-3">NUESTRO</div>
+          <div class="text_title mb-md-5">CONTACTO</div>
 
           <section class="row">
             <div class="col-1">
               <img src="./assets/images/phoen.svg" alt="Home" />
             </div>
 
-            <div class="col  ps-5 ps-lg-none general_font align-self-center">+506 87338162</div>
+            <div class="col ps-5 ps-lg-none general_font align-self-center">
+              +506 87338162
+            </div>
           </section>
 
           <section class="row">
@@ -233,28 +256,33 @@
           <img
             src="./assets/Images/contacto.svg"
             alt="Imagen de Impacto"
-            class="img-fluid object-fit-sm-contain mb-5 image_contacto d-none d-lg-block"
+            class="img-fluid object-fit-sm-contain mb-5 impacto_image-size d-none d-lg-block"
           />
         </div>
       </section>
 
       <!--Footer-->
-      <footer class="row">
-        <div class="icon-row d-flex flex-column flex-md-row ">
+      <footer class="row web_color-darkness">
+        <div class="icon-row d-flex flex-column flex-md-row">
           <a href="#impacto">Nosotros</a>
           <a href="#productos">Productos</a>
           <a href="#contacto">Contacto</a>
         </div>
 
         <div class="icon-row">
-          <img src="./assets/Images/ic_baseline-facebook.svg" alt="Icono 1"  class="my-3"/>
+          <img
+            src="./assets/Images/ic_baseline-facebook.svg"
+            alt="Icono 1"
+            class="my-3"
+          />
           <img
             src="./assets/Images/entypo-social_linkedin-with-circle.svg"
             alt="Icono 2"
             class="my-3"
           />
         </div>
-
+        <div class="row d-flex hr_decoration-footer">
+        </div>
         <p class="mt-3">Non Copyrighted © 2022 Upload by Midas</p>
       </footer>
     </div>

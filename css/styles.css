@@ -2,6 +2,10 @@
         background-color: #101010;
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,600;1,400;1,600&display=swap');
+
+
 .web_color-darkness{
 background-color: #121212;
 }
@@ -34,14 +38,33 @@ height: 548px;
 
 
 .text_ante-title{
-    color: #FCBC00; font-size: 16px; font-family: Poppins; font-style: italic; font-weight: 600;letter-spacing: 0.16px; word-wrap: break-word;
-}
+    color: var(--text-text-primary, #FCBC00);
+
+/* Text - md/Semibold italic */
+font-family: Poppins;
+font-size: 16px;
+font-style: italic;
+font-weight: 600;
+line-height: 24px; /* 150% */
+letter-spacing: 0.16px; }
+
+
 .text_title{
-     color: #FEFDFB; font-size: 60px; font-family: Poppins; font-weight: 700; letter-spacing: 0.60px; word-wrap: break-word; margin-bottom: 10px;
+    color: var(--text-text-placeholder, #FEFDFB);
+
+    Display:md/Bold;
+    font-family: Poppins;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px; /* 116.667% */
+    letter-spacing: 0.6px;
+    
 }
 .general_font{
     color: var(--text-text-placeholder, #FEFDFB);
-    font-family: Poppins;
+   font-display: regular;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -90,11 +113,14 @@ display: flex;
     /*color: #FEFDFB; font-size: 16px; font-family: Poppins; font-weight: 700; line-height: 24px; letter-spacing: 1.60px; word-wrap: break-word"*/
 }
 .productos_box_layout{
-    height: 296px;
+    height: 133.84px;
+
     flex: 1 0 0;
     background-color: #101010;
 }
-
+.produtos_image_layout {
+    position: absolute;
+}
 .productos_box_style{
     border-radius: var(--spacing-spacing-sm, 8px);
 background: var(--surface-surface-docbase, #101010);
@@ -253,7 +279,10 @@ gap: 16px;
 
     @media (max-width: 1400px) {
         .text_title{
-            font-size: 30px
+            line-height: 38px; /* 126.667% */
+            font-size: 30px;
+            letter-spacing: 0.3px;
+            padding-bottom: 1rem;
         }
         .general_font {
             line-height: 24px; /* 150% */
@@ -329,6 +358,9 @@ gap: 16px;
 
     }
   
+    .text_title{
+        padding-bottom: 1rem;
+    }
 .icon-row a {
     margin: 0%;
 }

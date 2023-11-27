@@ -18,8 +18,12 @@ font-weight: 700;
 line-height: 28px;
 letter-spacing: 0.01em;
 text-align:right;
+
 }
 
+.collapse {
+    padding-right: 160px;
+}
 .innovamos_image-big {
     width: 1046px;
 height: 548px;
@@ -29,7 +33,9 @@ height: 548px;
    padding-bottom: 128px;
 
 }
-
+.navbar-brand{
+    padding-left:160px;
+}
 .align {
     display: grid;
     place-items: center;
@@ -63,8 +69,7 @@ letter-spacing: 0.16px; }
 }
 .general_font{
     color: var(--text-text-placeholder, #FEFDFB);
-   font-display: regular;
-    font-family: 'Poppins', sans-serif;
+       font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -112,8 +117,16 @@ display: flex;
 
     /*color: #FEFDFB; font-size: 16px; font-family: Poppins; font-weight: 700; line-height: 24px; letter-spacing: 1.60px; word-wrap: break-word"*/
 }
+.producto.colum {
+    display: flex;
+padding: var(--spacing-spacing-none, 0px);
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+}
 .productos_box_layout{
-    height: 133.84px;
+    height: 296px;
+    width: 324px; ;
 
     flex: 1 0 0;
     background-color: #101010;
@@ -127,7 +140,8 @@ background: var(--surface-surface-docbase, #101010);
 }
 .separation {
     display: flex; padding: var(--spacing-spacing-none, 0px); justify-content: center; align-items: center;
-align-content: center; gap: 92px; flex: 1 0 0; flex-wrap: wrap;
+align-content: center; gap: 100px; flex: 1 0 0; flex-wrap: wrap;
+
 }
 
 .general_top_margin {
@@ -305,6 +319,11 @@ gap: 16px;
         padding-right: 32px;
 
         }
+        
+        .navbar-brand{
+            padding-left: 32px;
+            margin: 0px;
+        }
         .innovamos_image-big {
             width: 615.6px; height: 323px;
                     }
@@ -324,6 +343,13 @@ gap: 16px;
             padding-left: 33px;
             padding-right: 33px;
         }
+        .separation{
+            gap: 25px;
+        }
+        .productos_box_layout{
+            height: 134px;
+        }
+       
     }
 
 
@@ -345,7 +371,9 @@ gap: 16px;
             width: auto;
             height: 170px;
 }
- 
+ .collapse {
+ padding-right: 0px;
+ }
   .img_size{
     width: 244px;
     height: 111px;
@@ -357,13 +385,18 @@ gap: 16px;
         padding-right: 33px;
 
     }
-  
+    .productos_box_layout{
+        height: 134px;
+    }  
     .text_title{
         padding-bottom: 1rem;
     }
 .icon-row a {
     margin: 0%;
 }
+.margin-contacto{
+    padding-left: 11000px;
+  }
 
   
   @media (min-width:1195px) {

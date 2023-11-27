@@ -251,6 +251,9 @@ justify-content: center;
 align-items: center;
 gap: 16px;
 }
+.contacto_text_padding{
+    padding-left: 3rem;
+}
       .row {
         display: flex;
         justify-content: space-around;

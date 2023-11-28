@@ -3,9 +3,6 @@
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,600;1,400;1,600&display=swap');
-
-
 .web_color-darkness{
 background-color: #121212;
 }
@@ -19,6 +16,10 @@ line-height: 28px;
 letter-spacing: 0.01em;
 text-align:right;
 
+}
+
+.productos_bytes_size {
+    width: auto;
 }
 
 .collapse {
@@ -127,7 +128,8 @@ align-self: stretch;
 .productos_box_layout{
     height: 296px;
     width: 324px; ;
-
+    border-radius: var(--spacing-spacing-sm, 8px);
+    background: var(--surface-surface-docbase, #101010);
     flex: 1 0 0;
     background-color: #101010;
 }
@@ -140,7 +142,7 @@ background: var(--surface-surface-docbase, #101010);
 }
 .separation {
     display: flex; padding: var(--spacing-spacing-none, 0px); justify-content: center; align-items: center;
-align-content: center; gap: 100px; flex: 1 0 0; flex-wrap: wrap;
+align-content: center; gap: 50px; flex: 1 0 0; flex-wrap: wrap;
 
 }
 
@@ -347,7 +349,7 @@ gap: 16px;
             padding-right: 33px;
         }
         .separation{
-            gap: 25px;
+            gap: 1rem;
         }
         .productos_box_layout{
             height: 134px;
@@ -374,6 +376,11 @@ gap: 16px;
             width: auto;
             height: 170px;
 }
+.productos_bytes_size {
+    width: 110.328px;
+height: 50.19px;
+
+}
  .collapse {
  padding-right: 0px;
  }
@@ -389,7 +396,9 @@ gap: 16px;
 
     }
     .productos_box_layout{
-        height: 134px;
+        height: 133.84px;
+        flex: 1 0 0;
+        width: 324px;
     }  
     .text_title{
         padding-bottom: 1rem;

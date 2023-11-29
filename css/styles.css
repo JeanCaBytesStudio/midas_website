@@ -426,7 +426,7 @@ height: 50.19px;
   
   
   } 
-  
+}
   @media (min-width:1200px) {
     .gap_section {
         gap: 300px
@@ -437,6 +437,21 @@ height: 50.19px;
         padding-left: 33px;
         padding-right: 33px;
     }
-
+    .innovamos_image-big{
+        width: auto;
+        height: 3500px;
+      }    
 }
-            }
+
+@media (max-width:1200px) {
+    .innovamos_image-big{
+        width: auto;
+        height: 2000px;
+      }    
+@media (max-width:1024px) {
+    .innovamos_image-big{
+        width: auto;
+        height: 3500px;
+      }    
+}
+}

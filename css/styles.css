@@ -43,6 +43,9 @@ height: 548px;
     position: relative;
 }
 
+.btn_navbar_padding{
+    padding-right:25px !important;
+}
 
 .text_ante-title{
     color: var(--text-text-primary, #FCBC00);
@@ -294,9 +297,12 @@ gap: 16px;
         letter-spacing: 0.01em;
         text-align: left;
         }
+.contacto_image_size{
+    height: 347px;
+    width: 347px;
+}
 
-
-    @media (max-width: 1400px) {
+    @media (max-width: 1024px) {
         .text_title{
             line-height: 38px; /* 126.667% */
             font-size: 30px;
